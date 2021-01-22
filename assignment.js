@@ -1,7 +1,7 @@
 // https://github.com/shoto2020/assignment-js
 
 
-// Problem-Solution 01
+//! Problem-Solution 01
 
 function kilometerToMeter(kilo) {
 
@@ -13,6 +13,7 @@ function kilometerToMeter(kilo) {
     else {
          meter = (kilo * 1000);
     }
+
     return meter;
 }
 
@@ -22,7 +23,7 @@ console.log(meter);
 
 
 
-// Problem-Solution 02
+//! Problem-Solution 02
 
 function budgetCalculator(watch, phone, laptop) {
 
@@ -57,7 +58,7 @@ console.log(result);
 
 
 
-// Problem-Solution 03
+//! Problem-Solution 03
 
 function hotelCost(days) {
     var before10 = 100;
@@ -91,6 +92,7 @@ function hotelCost(days) {
         totalCost = before10 + before20 + after20;
 
     }
+
     return totalCost;
 }
 
@@ -100,9 +102,9 @@ console.log(totalCost);
 
 
 
-// Practice solution 04
+//! Practice solution 04
 
-var friends = ["satodhru", " ", "das", "nondondas"];
+var friends = ["satodhru", " ", "das", "nondondas", "sdasdasdasdasdasdas"];
 
 function megaFriend(name) {
     
@@ -121,6 +123,7 @@ function megaFriend(name) {
             megaFriend[0] = largeName; 
         }
     }
+
     return megaFriend;
 }
 
