@@ -8,7 +8,7 @@ function kilometerToMeter(kilo) {
     var meter = 0;
 
     if (kilo < 0){
-        return "Neagtive values not allow";
+        return "Negative values not allow";
     }
     else {
          meter = (kilo * 1000);
@@ -34,7 +34,7 @@ function budgetCalculator(watch, phone, laptop) {
     var total = 0;
 
     if (watch < 0 || phone < 0 || laptop < 0) {
-        return "Neagtive values not allow";
+        return "Negative values not allow";
     }
     else if(watch >= 0 || phone >= 0 || laptop >= 0) {
         watchPrice = watch * watchPrice,
@@ -68,7 +68,7 @@ function hotelCost(days) {
     var totalCost = 0;
 
     if(days <= 0) {
-        return "Neagtive values not allow";
+        return "Negative values not allow";
     }
     else if(days <= 10) {
         totalCost = days * before10;
