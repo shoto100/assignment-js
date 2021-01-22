@@ -1,3 +1,5 @@
+// https://github.com/shoto2020/assignment-js
+
 
 // Problem-Solution 01
 
@@ -101,6 +103,7 @@ console.log(totalCost);
 // Practice solution 04
 
 var friends = ["satodhru", " ", "das", "nondondas"];
+
 function megaFriend(name) {
     
     var megaFriend = [];
